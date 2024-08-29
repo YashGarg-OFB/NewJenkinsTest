@@ -18,7 +18,7 @@ public class WebDriverFactory {
         options.setBinary("/usr/bin/google-chrome");
         options.addArguments("--disable-extensions"); // disabling extensions
         //options.addArguments("--disable-gpu"); // applicable to windows os only
-//        options.addArguments("--headless=new");
+        options.addArguments("--headless=new");
         options.addArguments("start-maximized", "--disable-infobars", "--remote-allow-origins=*", "--disable-dev-shm-usage", "--no-sandbox");
         options.addArguments("user-data-dir=/home/yash/.config/google-chrome/AutomationProfile0");
         System.out.println("here1");
