@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+    <parameter name="env" value="stg2"/>
+<!--    <listeners>-->
+<!--        <listener class-name="utils.MyReporterListener"/>-->
+<!--    </listeners>-->
+    <test name="VirtualWarehouse">
+        <classes>
+            <class name="tests.VirtualWarehouseFlow"/>
+        </classes>
+    </test>
+</suite>
+
+<!--stg3 status-> Job work failed due to non submission of sti-->
